@@ -6,4 +6,17 @@ case5: Wi-Fi rate_limit 800K
 case6: Wi-Fi rate_limit 900K
 case7: Wi-Fi rate_limit 1000K
 case8: Wi-Fi rate_limit 1100K
+case9: Test impact of transmission range on Packet Reception Ratio(PRR)
+       Packet Size(byte): 80
+       Transmission Range(meter): 50, 60, 70
+       Topology: peer to peer (only two motes)
+       Packet Sending Interval(second): 1
+       Channel: 26
+case10:Test impact of packet sending interval on PRR
+       Packet Size(byte): 80
+       Transmission Range(meter): 40
+       Topology: peer to peer(only two motes)
+       Packet Sending Interval(second): 0.2, 0.4 , 0.8
+       Channel: 26
 
+       
